@@ -1,0 +1,108 @@
+eMessage_Info ODB file is out of date, regenerating it...
+eMessage_Info Begin analyzing 12V-Verification
+eMessage_Info Generated the settings file: Y:\Altium Projects\VapourPhaseReflowShield\PDNAnalyzer_Output\Vapour Phase Shield\12V-Verification\Vapour Phase Shield.py
+<<info>>
+CST PI-DC Module [built: Mar 18 2018 / 22:44:35, version=Version 2018.4 Build: 20180318]
+<<end>>
+<<progress>>
+100
+<<end>>
+<<progress>>
+0
+Reading layers
+<<end>>
+<<progress>>
+20
+Reading layers
+<<end>>
+<<progress>>
+40
+Reading layers
+<<end>>
+ayers
+Solver Process 8332 exited with code 0.
+<<end>>
+<<progress>>
+60
+Reading layers
+<<end>>
+<<progress>>
+100
+Reading layers
+<<end>>
+<<progress>>
+0
+Creating simulation-control file
+<<end>>
+<<progress>>
+10
+Pre-processing components
+<<end>>
+<<progress>>
+0
+Converting to PCBS format
+<<end>>
+<<progress>>
+33
+Converting to PCBS format
+<<end>>
+<<progress>>
+66
+Converting to PCBS format
+<<end>>
+<<progress>>
+100
+Converting to PCBS format
+<<end>>
+<<progress>>
+20
+Pre-processing geometries
+<<end>>
+<<progress>>
+70
+Saving PCB layout in CST format
+<<end>>
+<<progress>>
+100
+Done PCB conversion to CST format
+<<end>>
+<<info>>
+Running IR-Drop Solver
+<<end>>
+<<progress>>
+0
+CST PI-DC solution
+<<end>>
+<<progress>>
+10
+CST PI-DC solution
+<<end>>
+<<progress>>
+20
+CST PI-DC solution
+<<end>>
+<<progress>>
+30
+CST PI-DC solution
+<<end>>
+<<warning>>
+Unphysical voltage drop on IO side! Possible reasons:
+  - the DC path of the power/ground system is not closed due to missing or undefined components;
+  - the resistance Rpath of the DC path might be too large due to components with high resistances;
+  - the current Iic drawn by the ICs is too large or the voltage 'Usupply' of the power supply is too small;
+  - the condition 'Usupply > Rpath*Iic' for a working power/ground system is not fulfilled;
+<<end>>
+<<progress>>
+50
+CST PI-DC solution
+<<end>>
+<<progress>>
+100
+CST PI-DC solution
+<<end>>
+<<info>>
+PI-DC analysis finished successfully.
+<<end>>
+eMessage_Info Load and analyze result for 12V-Verification
+eMessage_Info No violations
+eMessage_Info Analysis Complete 12V-Verification

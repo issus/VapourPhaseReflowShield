@@ -1,0 +1,68 @@
+
+Importing Y:\Altium Projects\VapourPhaseReflowShield\PDNAnalyzer_Output\Vapour Phase Shield\12V-Verification\odb.tgz... [Sat Feb  1 01:09:08 2020]
+============================================================
+Reading ODB++ database ...
+
+file not found: odb/misc/info.Z
+Reading file odb/matrix/matrix...
+Reading file odb/steps/pcb/profile...
+Reading file odb/steps/pcb/eda/data...
+Origin of ODB++ database:  Altium Designer file - Version 1.0.0.30000
+eda data: 12 packages, 26 nets.
+Reading file odb/steps/pcb/layers/top_solder/features...
+172 SWHs on layer TOP_SOLDER
+
+Reading file odb/steps/pcb/layers/top_layer/features...
+745 SWHs on layer TOP_LAYER
+
+Reading file odb/steps/pcb/layers/bottom_layer/features...
+436 SWHs on layer BOTTOM_LAYER
+
+Reading file odb/steps/pcb/layers/bottom_solder/features...
+70 SWHs on layer BOTTOM_SOLDER
+
+Added substrate layer SUBSTRATE-1 below etch layer TOP_LAYER
+Reading file odb/steps/pcb/layers/top_solder/attrlist...
+Reading file odb/steps/pcb/layers/top_layer/attrlist...
+Reading file odb/steps/pcb/layers/bottom_layer/attrlist...
+Reading file odb/steps/pcb/layers/bottom_solder/attrlist...
+WARNING: material values were set to default due to missing information for the following layers:  'TOP_SOLDER', 'TOP_LAYER', 'BOTTOM_LAYER', 'BOTTOM_SOLDER'
+parsing drills TOP_LAYER-BOTTOM_LAYER
+Reading file odb/steps/pcb/layers/drill/features...
+Reading file odb/steps/pcb/layers/comp_+_top/components...
+INFO: 30 duplicate vertices ignored
+========================================
+INFO: Created CSV file (Y:\Altium Projects\VapourPhaseReflowShield\PDNAnalyzer_Output\Vapour Phase Shield\12V-Verification\Results\tmp\design.csv) with component properties extracted from ODB++ file.
+========================================
+========================================
+Lumped-element import (Y:\Altium Projects\VapourPhaseReflowShield\PDNAnalyzer_Output\Vapour Phase Shield\12V-Verification\Results\tmp\design.csv)...
+Detected ' ; ' as separator.
+
+Value-string translations:
+	0.1_F ->  100.0 fF (C)
+	10_kOhms ->  10.0 Ohms (R)
+	1_F ->  1.0 pF (C)
+	470_F ->  470.00000000000006 pF (C)
+	620_Ohms ->  620.0 Ohms (R)
+========================================
+Auto-imported CSV-file 'Y:\Altium Projects\VapourPhaseReflowShield\PDNAnalyzer_Output\Vapour Phase Shield\12V-Verification\Results\tmp\design.csv'.
+========================================
+WARNING: renamed pins with the same name for component J10 from M to M(1)
+WARNING: renamed pins with the same name for component J11 from M to M(1)
+WARNING: renamed pins with the same name for component J12 from M to M(1)
+WARNING: renamed pins with the same name for component J13 from M to M(1)
+WARNING: renamed pins with the same name for component J14 from M to M(1)
+WARNING: renamed pins with the same name for component J15 from M to M(1)
+WARNING: renamed pins with the same name for component J1_TC1 from M to M(1)
+WARNING: renamed pins with the same name for component J1_TC2 from M to M(1)
+WARNING: renamed pins with the same name for component J1_TC3 from M to M(1)
+WARNING: renamed pins with the same name for component J3 from M to M(1)
+WARNING: renamed pins with the same name for component J4 from M to M(1)
+WARNING: renamed pins with the same name for component J5 from M to M(1)
+WARNING: renamed pins with the same name for component J6 from M to M(1)
+WARNING: renamed pins with the same name for component J7 from M to M(1)
+WARNING: renamed pins with the same name for component J8 from M to M(1)
+WARNING: renamed pins with the same name for component J9 from M to M(1)
+Unifying library padstacks...
+Finished reading database.
+============================================================
