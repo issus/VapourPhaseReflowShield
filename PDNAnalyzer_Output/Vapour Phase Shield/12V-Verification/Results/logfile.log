@@ -38,14 +38,14 @@ Check Topology
 Single ended nodes detected!
   2 high-resistance connections to gnd were inserted!
 Writing Results
-   No. Signal Capacitive Areas:      16617
+   No. Signal Capacitive Areas:      16585
    No. Reference Capacitive Areas:   0
-   No. Signal Inductive Segments:    29524
+   No. Signal Inductive Segments:    29484
    No. Reference Inductive Segments: 0
-   No. Via Inductive Segments:       304
+   No. Via Inductive Segments:       302
    No. Dielectric Elements:          0
    No. Terminals:                    25
-Program pcbmerge has finished in 3 sec 
+Program pcbmerge has finished in 4 sec 
 export3d - Version 2018.4 Build: 20180318
 export3d has started
 Reading neutral top data
@@ -96,15 +96,15 @@ Writing model
  Direct solver: time for deallocating matrix and solver memory was 0 sec 
  Direct solver: time for solving was 0 sec 
  Direct solver: time for deallocating matrix and solver memory was 0 sec 
+ Direct solver: time for solving was 1 sec 
+ Direct solver: time for deallocating matrix and solver memory was 1 sec 
  Direct solver: time for solving was 0 sec 
  Direct solver: time for deallocating matrix and solver memory was 0 sec 
  Direct solver: time for solving was 0 sec 
  Direct solver: time for deallocating matrix and solver memory was 0 sec 
  Direct solver: time for solving was 0 sec 
  Direct solver: time for deallocating matrix and solver memory was 0 sec 
- Direct solver: time for solving was 0 sec 
- Direct solver: time for deallocating matrix and solver memory was 0 sec 
- Direct solver finished in 0 sec 
+ Direct solver finished in 1 sec 
 Creating dsn file
 export3d finished successfully in 1 sec 
 
@@ -129,7 +129,7 @@ Unphysical voltage drop on IO side! Possible reasons:
   - the current Iic drawn by the ICs is too large or the voltage 'Usupply' of the power supply is too small;
   - the condition 'Usupply > Rpath*Iic' for a working power/ground system is not fulfilled;
 
-Kernel currcalc finished successfully in 1 sec 
+Kernel currcalc finished successfully in 2 sec 
 
  direct IR-Drop calculation done
 Kernel solverccd has finished in 9 sec 

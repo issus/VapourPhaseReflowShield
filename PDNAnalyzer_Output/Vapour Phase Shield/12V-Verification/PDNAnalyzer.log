@@ -19,9 +19,6 @@ Reading layers
 40
 Reading layers
 <<end>>
-ayers
-Solver Process 8332 exited with code 0.
-<<end>>
 <<progress>>
 60
 Reading layers
@@ -34,6 +31,8 @@ Reading layers
 0
 Creating simulation-control file
 <<end>>
+<<progress>>
+r Process 9800 exited with code 0.
 <<progress>>
 10
 Pre-processing components
